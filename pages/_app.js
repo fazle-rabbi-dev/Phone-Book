@@ -28,6 +28,9 @@ export default function App({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
         <meta name="theme-color" content="#222"/>
         <meta name="author" content="fazle-rabbi"/>
+        <meta property="og:title" content="Phone-Book" />
+        <meta property="og:description" content="Organize your contacts easily with our user-friendly phone-book web app. Keep all your important contact information in one secure place. Say goodbye to lost or forgotten phone numbers and hello to streamlined communication. Try it now!" />
+        <meta property="og:image" content="/logo.png" />
         <title>Phone-Book</title>
         {router.asPath.includes('/signin') && <title>Phone-Book Sign In</title>}
         {router.asPath.includes('/signup') && <title>Phone-Book Sign Up</title>}
