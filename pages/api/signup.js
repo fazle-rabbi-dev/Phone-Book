@@ -56,10 +56,10 @@ export default async function handler(req, res) {
       name,email,password,token,
       isVerified: false
     });
-    const ref = sendEmail(email,emailSubject,emailBody);
+    const ref = await sendEmail(email,emailSubject,emailBody);
     console.log(ref)
     await newUser.save();
-    console.log("Saved successful")
+    console.log("Account created successful")
     res.status(200).json({
       success: true,
       // user: {email,secretkey},
