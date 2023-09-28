@@ -116,7 +116,7 @@ const SignInThree = () => {
           setIsSigningIn(false)
         }
       } catch (e) {
-        toast.error("Please check your internet connection!");
+        toast.error("Oops! Something went wrong");
         // setIsLoading(false)
         setIsSigningIn(false)
       }

@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.app{
+  @apply min-h-[100vh] mt-24
+}
