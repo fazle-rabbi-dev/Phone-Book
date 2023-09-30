@@ -329,7 +329,7 @@ const Home = () => {
                 Phone-Book
               </h2>
               <div class="flex items-center space-x-2">
-                <button class="text-3xl">
+                <button class="text-3xl text-white">
                   <Link href="/myaccount">
                     {/*<Icon icon="mdi:user-circle" color="white" />*/}
                     <svg
