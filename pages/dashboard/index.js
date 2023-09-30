@@ -323,7 +323,7 @@ const Home = () => {
       <ToastContainer />
       {isLoggedIn && !isLoading ? (
         <div className="">
-          <div className="bg-black p-4">
+          <div className="bg-gray-800 p-4">
             <div class="flex justify-between">
               <h2 className="text-2xl text-center text-white font-bold ">
                 Phone-Book
@@ -331,7 +331,22 @@ const Home = () => {
               <div class="flex items-center space-x-2">
                 <button class="text-3xl">
                   <Link href="/myaccount">
-                    <Icon icon="mdi:user-circle" color="white" />
+                    {/*<Icon icon="mdi:user-circle" color="white" />*/}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-user"
+                    >
+                      <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+                      <circle cx="12" cy="7" r="4" />
+                    </svg>
                   </Link>
                 </button>
                 <button
@@ -372,7 +387,7 @@ const Home = () => {
           </div>
           {/*Form To Save Number*/}
           {saveNumber && (
-            <div className="px-4 bg-black mb-5 rounded">
+            <div className="px-4 bg-gray-800 mb-5 rounded">
               <div class="relative">
                 <p class="absolute left-1 top-2 text-2xl">
                   <Icon color="#555" icon="material-symbols:person" />
@@ -510,7 +525,7 @@ const Home = () => {
               ? filteredContacts.map((contact) => {
                   return (
                     !isContactsLoading && (
-                      <div className="relative m-4 bg-black text-white px-3 py-2 rounded">
+                      <div className="relative m-4 bg-gray-800 text-white px-3 py-2 rounded">
                         {/*<span className="text-black absolute right-2 top-2 bg-slate-100 text-black px-2 rounded text-sm" onClick={()=>copyNumber(contact.number)}>Copy</span>*/}
                         {/*<p class="absolute left-2 top-2 text-2xl"><Icon icon="ic:baseline-perm-contact-calendar" /></p>*/}
                         <div class="flex justify-center items-center">
