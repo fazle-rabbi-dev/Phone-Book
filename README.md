@@ -9,14 +9,14 @@ Phone-Book is an awesome contacts management web application. In this applicatio
 
 ## 🔒 Privacy
 > [!Important]
-> When you create a new contact, the contact information will be encrypted using your secret key. Therefore, your contact privacy is **100%**. *Even the developer of this app can't see your contact information!*
+> When you create a new contact, the phone-number will be encrypted using your secret key. Therefore, your contact privacy is **100%**. *Even the developer of this app can't see your contact information!*
 
 ## 🔴 Unveiling the Journey of Building Phone-Book
 > [!Note]
 > After learning Next.js, I had a plan to create a phone book web app for storing phone numbers from my contacts. As I started working on it, I realized the potential to make it a multi-user platform. I added account creation and login functionalities, allowing anyone to store and access their phone numbers from anywhere. Completing this project was a significant achievement for me, especially after learning Next.js 13.
 
 ### Project Created at
-- 🗓 *Dec 2023 - Jan 2023*
+- 🗓 *April 2023*
 
 ### Technologies Used ⚒️
 - Next.js
